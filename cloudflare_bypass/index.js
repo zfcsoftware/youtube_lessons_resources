@@ -1,7 +1,7 @@
 const fs = require('fs')
 const axios = require('axios')
 
-const url = 'https://www.000webhost.com/cpanel-login'
+const url = '<url>'
 
 function parseHeaders(requestString) {
     const headers = requestString.split('\n').slice(1, -2);
